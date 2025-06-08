@@ -64,3 +64,42 @@ header nav a {
   border-radius: 20px;
   cursor: pointer;
 }
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;/* Centralize font family for the whole page */
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Quotes section*/
+.quotes {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* quote block */
+.quotes blockquote {
+  background-color: #f8f8f8;
+  border-left: 6px solid #C271FF;
+  margin: 20px 0;
+  padding: 20px 30px;
+  font-style: italic;
+  color: #555;
+  position: relative;
+}
+
+/* Quote text */
+.quotes blockquote p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Quote footer, author*/
+.quotes blockquote footer {
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+  text-align: right;
+}
