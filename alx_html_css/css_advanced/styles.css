@@ -239,3 +239,36 @@ body {
 .cta:hover {
   background-color: #a450dc;
 }
+
+/* FAQ section */
+.faq {
+  background-color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.faq h2 {
+  font-size: 32px;
+  color: #071629;
+  margin-bottom: 60px;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.faq-item h3 {
+  font-size: 18px;
+  color: #071629;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 14px;
+  color: #6c757d;
+}
