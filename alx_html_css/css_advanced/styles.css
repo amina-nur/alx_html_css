@@ -182,3 +182,60 @@ body {
   font-size: 12px;
   color: #999;
 }
+/* Membership section */
+.membership {
+  background-color: #071629;
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+}
+
+.membership h2 {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.membership-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.membership-card {
+  max-width: 220px;
+}
+
+.membership-card img {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.membership-card h3 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.membership-card p {
+  font-size: 14px;
+  color: #fff;
+}
+
+/* Register button */
+.cta {
+  background-color: #C271FF;
+  color: white;
+  padding: 12px 24px;
+  font-size: 14px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cta:hover {
+  background-color: #a450dc;
+}
